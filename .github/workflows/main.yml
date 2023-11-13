@@ -23,4 +23,4 @@ jobs:
         run: ls
 
       - name: "Login to Docker hub"
-        run: docker login --username ma7moud22 -- password dckr_pat_TOCJEj6WpJ131gVsC3zr9E-0K4Q
+        run: docker login --username ma7moud22 --password dckr_pat_TOCJEj6WpJ131gVsC3zr9E-0K4Q
