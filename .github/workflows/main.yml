@@ -8,11 +8,11 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps: 
       - name: 'Testing Github actions'
         run: pwd
 
         - name: 'Testing Printing'
-        run: print Mahmoud
+        run: echo Mahmoud
